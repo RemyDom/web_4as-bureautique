@@ -1,0 +1,262 @@
+
+/* |========================================{ Version Original }========================================| */
+
+/* |==== { Formulaire }====| */
+
+.FormulaireContact_container {
+    position: relative;
+    width: 100%;
+}
+
+.FormulaireContact_container_Form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    display: grid;
+}
+
+.FormulaireContact_form {
+    width: 30vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #84429A;
+    background-color: #aca9a8;
+    padding: 0 30px 10px;
+    box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.637);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+}
+
+.FormulaireContact_container_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.FormulaireContact_imgContact {
+    width: 70px;
+    height: 70px;
+    margin-left: 2%;
+}
+
+.FormulaireContact_title {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.FormulaireContact_container_names{
+    display: flex;
+    justify-content:space-between;
+
+}
+/* |==== { Style des inputs } ====| */
+.FormulaireContact_input,
+.FormulaireContact_textarea {
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #84429A;
+    border: none;
+    border-bottom: solid 1px #84429A;
+    outline: none;
+}
+
+    .FormulaireContact_input::placeholder,
+    .FormulaireContact_textarea::placeholder {
+        color: whitesmoke;
+    }
+
+/* |==== { Taille des inputs } ====| */
+
+.FormulaireContact_input {
+    padding: 24px 0 12px;
+    width: 100%;
+}
+
+.FormulaireContact_textarea {
+    height: 10vh;
+}
+
+#FormulaireContact_firstName, #FormulaireContact_lastName, #FormulaireContact_company, #FormulaireContact_phone {
+    position: relative;
+}
+
+#FormulaireContact_message {
+    width: 100%;
+    position: relative;
+    margin-top: 2%;
+}
+
+.FormulaireContact_SendBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+/* |==== { Petit INPUTS } ====| */
+.FormulaireContact_box_FirstName, .FormulaireContact_box_LastName {
+    position: relative;
+    width: 45%;
+}
+
+/* |==== { Grand INPUTS } ====| */
+.FormulaireContact_box_Company, .FormulaireContact_box_Phone, .FormulaireContact_box_Email, .FormulaireContact_box_Message {
+    position: relative;
+}
+
+.FormulaireContact_textarea {
+    resize: none;
+    padding: 24px 0;
+}
+
+/* |==== { Messages Erreurs } ====| */
+#FormulaireContact_not_firstName, #FormulaireContact_not_lastName, #FormulaireContact_not_company, #FormulaireContact_not_phone, #FormulaireContact_not_mail, #FormulaireContact_not_message {
+    display: none;
+    position: absolute;
+    top: 4px;
+    color: #ff4d4d;
+    right: 0;
+    transform-origin: 50% 50%;
+}
+
+@keyframes dongle {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    10% {
+        transform: translate(-10px, 0px);
+    }
+
+    20% {
+        transform: translate(10px, 0px);
+    }
+
+    30% {
+        transform: translate(-10px, 0px);
+    }
+
+    40% {
+        transform: translate(10px, 0px);
+    }
+
+    50% {
+        transform: translate(-10px, 0px);
+    }
+
+    60% {
+        transform: translate(10px, 0px);
+    }
+
+    70% {
+        transform: translate(-10px, 0px);
+    }
+
+    80% {
+        transform: translate(10px, 0px);
+    }
+
+    90% {
+        transform: translate(-10px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.error::placeholder {
+    color: #ff4d4d;
+}
+
+/* |==== { Bouton d'envois + Message d'envois } ====| */
+
+.FormulaireContact_button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+    background: none;
+}
+
+    .FormulaireContact_button:hover {
+        letter-spacing: 2px;
+    }
+
+.FormulaireContact_form_message {
+    margin-top: 2%;
+    padding: 5px;
+    transition: 0.2s ease;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* |========================================{ Version 2560px }========================================| */
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    /* |==== { Style des inputs } ====| */
+    .FormulaireContact_input,
+    .FormulaireContact_textarea {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+
+    /* |==== { Taille des inputs } ====| */
+
+    .FormulaireContact_textarea {
+        height: 15vh;
+    }
+
+    #FormulaireContact_message {
+        width: 100%;
+        position: relative;
+        
+    }
+
+    .FormulaireContact_SendBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    /* |==== { Petit INPUTS } ====| */
+    .FormulaireContact_box_FirstName, .FormulaireContact_box_LastName {
+        position: relative;
+        width: 45%;
+    }
+
+    /* |==== { Grand INPUTS } ====| */
+    .FormulaireContact_box_Company, .FormulaireContact_box_Phone, .FormulaireContact_box_Email, .FormulaireContact_box_Message {
+        position: relative;
+    }
+
+    .FormulaireContact_textarea {
+        resize: none;
+        padding: 24px 0;
+    }
+
+    .FormulaireContact_container{
+        height:100%;
+    }
+}

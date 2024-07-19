@@ -1,0 +1,156 @@
+/* |========================================{ Version Original }========================================| */
+
+.Header_container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    font-family: "FuturND";
+}
+
+.Header_part1 {
+    width: 20%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_logo_euro {
+    width: 250px;
+    object-fit: fill;
+}
+
+.Header_part2 {
+    width: 70%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_navbar_ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+/*Quand parent séléctionné modifie le css de l'enfant*/
+.Header_navbar_choice:hover > .Header_link {
+    background-color: #84429A;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Quand parent séléctionné modifie le css de l'enfant*/
+.Header_navbar_choiceToSub:hover > .Header_link, .Header_SubLink:hover {
+    background-color: #84429A;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Quand parent séléctionné modifie le css de l'enfant*/
+.Header_navbar_choiceToSub:hover > .Header_submenu {
+    display: flex;
+}
+
+.Header_submenu {
+    width: 30vh;
+    color: black;
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.Header_navbar_SubChoice {
+    margin-top: 4%;
+}
+
+.Header_submenu_navbar_ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    padding: 10px 10px;
+    background: rgba(214, 214, 214, 0.90);
+    border-radius: 15px;
+}
+
+.Header_link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px 5px;
+}
+
+.Header_link2 {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    padding: 5px 5px;
+    border: solid 2px #84429A;
+}
+
+    .Header_link2:hover {
+        background-color: #84429A;
+        color: white;
+        border: solid 2px #84429A;
+    }
+
+.Header_SubLink {
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9vw;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px 5px;
+}
+
+/* |========================================{ Version 2560px }========================================| */
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .Header_link {
+        font-size: 22px;
+    }
+
+    .Header_link2 {
+        font-size: 22px;
+    }
+
+    .Header_SubLink {
+        font-size: 20px;
+    }
+
+    .Header_logo_euro{
+        width: 350px;
+    }
+}

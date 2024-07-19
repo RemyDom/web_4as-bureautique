@@ -1,0 +1,287 @@
+/* |========================================{ Version Original }========================================| */
+
+/* |==== { Formulaire }====| */
+
+.DemandeIntervention_container_aboutme {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DemandeIntervention_container_aboutdevice {
+    width:100%;
+}
+
+.DemandeIntervention_ids {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.DemandeIntervention_container_Names, .DemandeIntervention_container_contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.DemandeIntervention_p {
+    color: #84429A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.DemandeIntervention_container {
+    position: relative;
+    width: 100%;
+}
+
+.DemandeIntervention_container_Form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+    display: grid;
+    margin-bottom: 3%;
+}
+
+.DemandeIntervention_form {
+    width: 45vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #84429A;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    background-color: #aca9a8;
+    padding: 0 30px 10px;
+    margin-top: 3%;
+    box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.637);
+}
+
+.DemandeIntervention_container_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.DemandeIntervention_container_sub_title{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:0;
+}
+
+.DemandeIntervention_imgIntervention {
+    width: 70px;
+    height: 70px;
+    margin-left: 2%;
+}
+
+.DemandeIntervention_imgSubtitle {
+    width: 60px;
+    height: 60px;
+    margin-left: 2%;
+}
+
+.DemandeIntervention_imgTools_left {
+    position: absolute;
+    width: 40%;
+    z-index: -99;
+    left: 10%;
+}
+
+.DemandeIntervention_imgTools_right {
+    position: absolute;
+    width: 40%;
+    z-index: -99;
+    right: 10%;
+}
+    /* |==== { Style des inputs } ====| */
+    .DemandeIntervention_input,
+    .DemandeIntervention_textarea {
+        background: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.1rem;
+        color: #84429A;
+        border: none;
+        border-bottom: solid 1px #84429A;
+        outline: none;
+    }
+
+    .DemandeIntervention_input::placeholder,
+    .DemandeIntervention_textarea::placeholder {
+        color: whitesmoke;
+    }
+
+/* |==== { Taille des inputs } ====| */
+
+.DemandeIntervention_input {
+    padding: 24px 0 12px;
+    width: 100%;
+}
+
+.DemandeIntervention_textarea {
+    height: 10vh;
+}
+
+#DemandeIntervention_firstName, #DemandeIntervention_lastName, #DemandeIntervention_email, #DemandeIntervention_phone, #DemandeIntervention_company, #DemandeIntervention_ref, #DemandeIntervention_serialNumber, #DemandeIntervention_location, #DemandeIntervention_message {
+    position: relative;
+}
+
+#DemandeIntervention_message {
+    width: 100%;
+    position: relative;
+    margin-top: 2%;
+}
+
+.DemandeIntervention_SendBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+/* |==== { Petits INPUTS } ====| */
+.DemandeIntervention_box_LastName, .DemandeIntervention_box_firstName, .DemandeIntervention_box_company, .DemandeIntervention_box_ref, .DemandeIntervention_box_serialNumber, .DemandeIntervention_box_phone {
+    width: 30%;
+    position: relative;
+    margin-right: 3%;
+}
+
+/* |==== { Moyen INPUTS } ====| */
+.DemandeIntervention_box_email{
+    width: 65%;
+    position: relative;
+    margin-right:3%;
+}
+
+/* |==== { Grand INPUTS } ====| */
+.DemandeIntervention_box_Message, .DemandeIntervention_box_location {
+    width: 100%;
+    position: relative;
+    margin-top: 3%;
+}
+
+.DemandeIntervention_textarea {
+    resize: none;
+    padding: 24px 0;
+}
+
+/* |==== { Messages Erreurs } ====| */
+#DemandeIntervention_not_firstName, #DemandeIntervention_not_lastName, #DemandeIntervention_not_email, #DemandeIntervention_not_phone, #DemandeIntervention_not_company, #DemandeIntervention_not_ref, #DemandeIntervention_not_serialNumber, #DemandeIntervention_not_location, #DemandeIntervention_not_message {
+    display: none;
+    position: absolute;
+    top: 4px;
+    color: #ff4d4d;
+    right: 0;
+    transform-origin: 50% 50%;
+}
+
+@keyframes dongle {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    10% {
+        transform: translate(-10px, 0px);
+    }
+
+    20% {
+        transform: translate(10px, 0px);
+    }
+
+    30% {
+        transform: translate(-10px, 0px);
+    }
+
+    40% {
+        transform: translate(10px, 0px);
+    }
+
+    50% {
+        transform: translate(-10px, 0px);
+    }
+
+    60% {
+        transform: translate(10px, 0px);
+    }
+
+    70% {
+        transform: translate(-10px, 0px);
+    }
+
+    80% {
+        transform: translate(10px, 0px);
+    }
+
+    90% {
+        transform: translate(-10px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.error::placeholder {
+    color: #ff4d4d;
+}
+
+
+/* |==== { Bouton d'envois + Message d'envois } ====| */
+
+.DemandeIntervention_button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+    background: none;
+}
+
+    .DemandeIntervention_button:hover {
+        letter-spacing: 2px;
+    }
+
+.DemandeIntervention_form_message {
+    margin-top: 3%;
+    padding: 5px;
+    transition: 0.2s ease;
+    color: white;
+    border-radius: 4px;
+    text-align:center;
+    font-size: 20px;
+}
+
+/* |========================================{ Version 2560px }========================================| */
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .DemandeIntervention_container{
+        width:100%;
+        height: 77vh;
+    }
+
+    /* |==== { Style des inputs } ====| */
+    .DemandeIntervention_input,
+    .DemandeIntervention_textarea {
+        font-size: 20px;
+    }
+
+}

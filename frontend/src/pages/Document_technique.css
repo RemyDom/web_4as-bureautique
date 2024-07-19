@@ -1,0 +1,123 @@
+/* |========================================{ Version Original }========================================| */
+
+/* |==== { Page de login } ====| */
+
+.TechnicalPaperLogin_container {
+    width: 100%;
+    height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.TechnicalPaperLogin_container_login {
+    width: 20%;     
+}
+
+.TechnicalPaperLogin_background_login {
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
+    background: rgba(214, 214, 214, 0.80);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+}
+
+.TechnicalPaperLogin_box_password, .TechnicalPaperLogin_box_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 10vh;
+}
+
+#TechnicalPaperLogin_not_password, #TechnicalPaperLogin_not_email {
+    display: none;
+    position: absolute;
+    top: 0px;
+    color: #ff4d4d;
+    right: 4%;
+    transform-origin: 50% 50%;
+}
+
+.TechnicalPaperLogin_input_email {
+    width: 90%;
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #84429A;
+    border: none;
+    border-bottom: solid 1px #84429A;
+    outline: none;
+}
+
+.TechnicalPaperLogin_input_password {
+    width: 80%;
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #84429A;
+    border: none;
+    border-bottom: solid 1px #84429A;
+    outline: none;
+}
+
+.TechnicalPaperLogin_oeil_password, .TechnicalPaperLogin_oeilFerme_password {
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.TechnicalPaperLogin_oeil_password {
+    display: none;
+}
+
+    .TechnicalPaperLogin_SendBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.TechnicalPaperLogin_button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #84429A;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 50%;
+    background: none;
+}
+
+.TechnicalPaperLogin_button:hover{
+    letter-spacing : 2px;
+}
+
+.TechnicalPaperLogin_h3{
+    text-align:center;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+/* |==== { Documentation technique } ====| */
+
+
+/* |========================================{ Version 2560px }========================================| */
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .TechnicalPaperLogin_h3 {
+        font-size: 22px;
+        margin-bottom: 2%;
+    }
+
+    .TechnicalPaperLogin_box_password, .TechnicalPaperLogin_box_email {
+        height: 6vh;
+    }
+
+    .TechnicalPaperLogin_container{
+        height:83vh;
+    }
+}

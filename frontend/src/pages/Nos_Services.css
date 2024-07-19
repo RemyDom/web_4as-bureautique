@@ -1,0 +1,58 @@
+/* |========================================{ Version Original }========================================| */
+
+/* |==== { Nos services } ====| */
+
+.Services_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "FuturND";
+}
+
+.Services_container_part1, .Services_container_part2 {
+    width: 90%;
+}
+
+.Services_img1, .Services_img2 {
+    width: 35%;
+    height: 35vh;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;
+}
+
+.Services_container_block1, .Services_container_block2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.Services_container_text1, .Services_container_text2 {
+    width: 60%;
+}
+
+.Services_title {
+    margin-top: 3%;
+    color: #84429A;
+}
+
+/* |========================================{ Version 2560px }========================================| */
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .Services_container {
+        font-size: 19px;
+        margin-bottom: 1%;
+    }
+
+    .Services_img1, .Services_img2 {
+        width: 35%;
+        height: 30vh;
+    }
+}
