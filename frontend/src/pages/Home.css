@@ -36,9 +36,10 @@ html {
 }
 
 .Home_hereo_Test {
-    width: 1920px;
-    height: 965px;
-    fill: none;
+    width: 100%;
+    height: 98%;
+    /*fill: none;*/
+    position: absolute;
 }
 
 .Home_hero_bubles1, .Home_hero_bubles2, .Home_hero_bubles3 {
@@ -49,32 +50,32 @@ html {
     border: solid 1px black;
     text-align: center;
     padding: 5px;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     color: black;
     transition: all 0.3s;
     cursor: pointer;
 }
 
     .Home_hero_bubles1:hover, .Home_hero_bubles2:hover, .Home_hero_bubles3:hover {
-        background-color: #84429A;
+        background-color: #c22a1f;
         color: white;
     }
 
 .Home_hero_bubles1 {
     top: 22%;
-    left: 77%;
+    left: 71%;
     transform: rotate(35deg)
 }
 
 .Home_hero_bubles2 {
     top: 29%;
-    left: 85%;
+    left: 79%;
     transform: rotate(0deg)
 }
 
 .Home_hero_bubles3 {
     top: 19%;
-    left: 85%;
+    left: 78%;
     transform: rotate(-45deg)
 }
 
@@ -86,58 +87,50 @@ html {
     top: 16%;
     position: absolute;
     font-size: 100px;
-    color: #9115A9;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 0.3px;
     transition: all 0.2s ease-in-out;
     text-shadow: 0 0 5px #fff;
-    font-family: "FuturND";
+    font-family: "Philosopher";
+}
+
+.Home_hero_span{
+    color: red;
 }
 
 .Home_hero_text {
-    left: 16%;
-    bottom: 35%;
     width: 40%;
-    position: absolute;
     font-size: 18px;
     font-weight: bold;
     color: black;
     text-decoration: none;
+    text-align: center;
     letter-spacing: 0.3px;
     transition: all 0.2s ease-in-out;
-    font-family: "FuturND";
+    font-family: "Philosopher";
 }
 
 .Home_hero_button {
     position: absolute;
-    background-color: #84429A;
-    font-weight: bold;
-    color: white;
-    font-family: "FuturND";
-    padding: 5px 5px;
-    border-radius: 5px;
-    bottom: 20%;
-    left: 16%;
+    bottom: 40%;
+    left: 48%;
     cursor: pointer;
-    width: 10%;
-    height: 3vh;
-    text-align:center;
-    transition: all 0.4s;
+    width: 40px;
+    transition: all 0.3s;
 }
 
-    .Home_hero_button:hover {
-        background-color: white;
-        color: #84429A;
-        border: solid 1px #84429A;
+    .Home_hero_button:hover{
+        transform: scale(1.5);
     }
 
-.Home_img_printer {
-    position: absolute;
-    bottom: 5%;
-    right: 10%;
-    width: 300px;
-}
+    .Home_img_printer {
+        position: absolute;
+        bottom: 5%;
+        right: 10%;
+        width: 300px;
+    }
 
 .Home_container_support{
     position: absolute;
@@ -151,13 +144,18 @@ html {
     align-items: center;
     width: 40px;
     height: 40px;
-    background: rgba(214, 214, 214, 0.9);
+    background: rgba(214, 214, 214, 0.6);
     border-radius: 5px;
+    transition: all 0.3s;
 }
 
-.Home_svg_windows{
-    cursor: pointer;
-}
+    .Home_background_icons_support:hover {
+        background: rgba(194, 42, 31, 0.9);
+    }
+
+    .Home_svg_windows {
+        cursor: pointer;
+    }
 
 .Home_container_mac{
     margin-top: 15%;
@@ -174,11 +172,11 @@ html {
     width: 95%;
     border-radius: 10px;
     height: 50vh;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #581F70;
+    background-color: #c3c3c3;
     margin-bottom: 2%;
 }
 
@@ -205,7 +203,7 @@ html {
 
 .Home_container_part2 {
     width: 90%;
-    font-family: "FuturND";
+    /*font-family: "Philosopher";*/
 }
 
 .Home_container_distributor {
@@ -271,7 +269,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-bottom: 2%;
-    font-family: "FuturND";
+    font-family: "Philosopher";
 }
 
 .Home_container_board {
@@ -297,12 +295,12 @@ html {
     transition: all 0.3s;
     color: black;
     padding: 10px 10px;
-    border: solid 1px #84429A;
+    border: solid 1px #c22a1f;
     border-radius: 30px;
 }
 
     .Home_choice_board_title:hover {
-        background-color: #84429A;
+        background-color: #c22a1f;
         color: white;
         border-radius: 30px;
     }
@@ -369,7 +367,7 @@ html {
 
 .Home_Maintenance_Price_Background {
     width: 40%;
-    background: #5E17EB;
+    background: #c22C1f;
     border-top-left-radius: 5px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -393,10 +391,10 @@ html {
 .Home_maintenance_more {
     text-align: center;
     width: 30%;
-    background-color: #84429A;
+    background-color: #c22a1f;
     font-weight: bold;
     color: white;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     padding: 5px 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -405,8 +403,8 @@ html {
 
     .Home_maintenance_more:hover {
         background-color: white;
-        color: #84429A;
-        border: solid 2px #84429A;
+        color: #c22a1f;
+        border: solid 2px #c22a1f;
     }
 
 .Home_contact_link {
@@ -452,7 +450,7 @@ html {
     width: 30px;
     height: 30px;
     border-radius: 10px;
-    background: #84429A;
+    background: #c22a1f;
     cursor: pointer;
     padding: 4px;
 }
@@ -595,16 +593,17 @@ html {
     position: absolute;
     bottom: 5%;
     left: 35%;
-    border: solid 2px black;
+    border: solid 2px #c22a1f;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
+    background-color: #c22a1f;
+    color: white;
 }
 
     .Home_stikers_button:hover {
-        border: solid 2px #84429A;
-        background-color: #84429A;
-        color: white;
+        background-color: white;
+        color: black;
     }
 
 .Home_img_formation {
@@ -644,7 +643,7 @@ html {
 .CGU_ol {
     font-weight: bold;
     font-size: 20px;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     color: #84429A;
 }
 
@@ -664,7 +663,7 @@ html {
 .MentionLegales_h2 {
     font-weight: bold;
     font-size: 25px;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     color: #84429A;
 }
 
@@ -713,16 +712,17 @@ html {
 
 .ErreurLien_ButtonContainer {
     width: 100%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .ErreurLien_GoHomeButton {
-    background-color: #84429A;
+    background-color: #c22a1f;
     font-weight: bold;
     color: white;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     padding: 5px 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -730,12 +730,12 @@ html {
     text-align: center;
     transition: all 0.4s;
     font-size: 25px;
+    border: solid 1px #c22a1f;
 }
 
-    .ErreurLien_GoHomeButton:hover, .ErreurLien_Link:hover {
+    .ErreurLien_GoHomeButton:hover {
         background-color: white;
-        color: #84429A;
-        border: solid 1px #84429A;
+        color: black;
     }
 
 .ErreurLien_img_printer{
@@ -748,7 +748,7 @@ html {
 
 .ErreurLien_Link {
     width: 20%;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
 }
 /*@media (prefers-reduced-motion: no-preference) {
@@ -772,8 +772,8 @@ html {
 }
 .ErreurLien_svg2 {
     position: absolute;
-    right: 2%;
-    bottom: 3%;
+    right: 15%;
+    bottom: 15%;
 }
 
 .ErreurLien_svg3 {
@@ -783,6 +783,8 @@ html {
 }
 /* |========================================{ Version 2560px }========================================| */
 @media all and (min-width: 1920px) and (max-width: 2560px) {
+
+    /*/====={ Partie - HERO }=====/*/
     .Home_hero_bigTitle {
         font-size: 150px;
     }
@@ -793,7 +795,6 @@ html {
 
     .Home_hero_text {
         font-size: 24px;
-        left: 19%;
     }
 
     .Home_img_printer {
@@ -801,32 +802,25 @@ html {
     }
 
     .Home_hereo_Test {
-        width: 2560px;
-        height: 1335px;
-    }
-
-    .Home_hero_button {
-        left: 19%;
-        bottom: 25%;
-        width: 5%;
-        height: 2vh;
+        /*width: 2560px;
+        height: 1335px;*/
     }
 
     .Home_hero_bubles1 {
         top: 22%;
-        left: 74%;
+        left: 68%;
         transform: rotate(35deg)
     }
 
     .Home_hero_bubles2 {
         top: 29%;
-        left: 82%;
+        left: 76%;
         transform: rotate(0deg)
     }
 
     .Home_hero_bubles3 {
         top: 20%;
-        left: 81%;
+        left: 75%;
         transform: rotate(-45deg)
     }
 
@@ -896,5 +890,46 @@ html {
 
     .Home_img_technical_team{
         height: 30vh;
+    }
+
+    /*/====={ Partie Erreur lien }=====/*/
+    .ErreurLien_T1 {
+        font-size: 50px;
+        margin-left: 2%;
+        margin-bottom: -6%;
+    }
+
+    .ErreurLien_T2 {
+        font-size: 70px;
+        margin-bottom: -2%;
+        font-weight: bold;
+    }
+
+    .ErreurLien_T3 {
+        font-size: 24px;
+    }
+    .ErreurLien_Part2 {
+        height: 83.1vh;
+    }
+
+    .ErreurLien_img_printer{
+        width: 15%;
+        right: 20%;
+        top: 30%;
+    }
+
+    .ErreurLien_svg_principal{
+        top:10%;
+        left: 20%;
+    }
+
+    .ErreurLien_svg2 {
+        bottom: 35%;
+        right: 20%;
+    }
+
+    .ErreurLien_svg3{
+        top:20%;
+        right: 25%;
     }
 }

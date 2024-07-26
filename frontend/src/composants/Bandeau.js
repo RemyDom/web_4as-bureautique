@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import './Bandeau.css';
 
 // |==== { Imports des images } ====|
-import imgLogoEntreprise from '../img/logoEuro_Stext.png';
+import imgLogoEntreprise from '../img/logo4as.png';
+import imgTelephone from '../img/telephoner.png';
 
 function Bandeau() {
 
@@ -34,6 +35,11 @@ function Bandeau() {
 
                         <li className="Header_navbar_choice"><Link className="Header_link" to="/Document-technique-login">Document technique</Link></li>
                         <li className="Header_navbar_choice"><Link className="Header_link" to="/Nous-contacter">Nous contacter</Link></li>
+                        <li className="Header_navbar_number">
+                            <img className="Headder_navbar_tel_icons" src={imgTelephone} alt="LogoTel" />
+                            01 69 28 50 00
+
+                        </li>
                     </ul>
 
                 </nav>

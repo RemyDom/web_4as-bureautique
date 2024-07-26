@@ -60,7 +60,7 @@
 }
 
 .CommandePiece_p {
-    color: #84429A;
+    color: #c22a1f;
     font-weight: bold;
     font-size: 20px;
 }
@@ -85,7 +85,7 @@
 .CommandePiece_form {
     width: 45vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #84429A;
+    border: 1px solid #c22a1f;
     border-top-left-radius: 5px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -160,12 +160,12 @@
 }
 
 .CommandePiece_addLine {
-    width:20%;
-    text-align:center;
-    background-color: #84429A;
+    width: 20%;
+    text-align: center;
+    background-color: #c22a1f;
     font-weight: bold;
     color: white;
-    font-family: "FuturND";
+    font-family: "Philosopher";
     padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -174,8 +174,8 @@
 
     .CommandePiece_addLine:hover {
         background-color: white;
-        color: #84429A;
-        border: solid 2px #84429A;
+        color: #c22a1f;
+        border: solid 2px #c22a1f;
     }
 /* |==== { Style des inputs } ====| */
 .CommandePiece_input,
@@ -183,9 +183,9 @@
     background: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1rem;
-    color: #84429A;
+    color: #c22a1f;
     border: none;
-    border-bottom: solid 1px #84429A;
+    border-bottom: solid 1px #c22a1f;
     outline: none;
 }
 
@@ -200,7 +200,7 @@
     background: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    color: #84429A;
+    color: #c22a1f;
     border: none;
     outline: none;
     width: 100%;

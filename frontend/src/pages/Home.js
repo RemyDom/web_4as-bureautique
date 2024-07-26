@@ -14,6 +14,7 @@ import "../index.css";
 import img_equipe_technique from '../img/equipe_technique.png';
 import img_presentation from '../img/presentation.jpg';
 import img_printer from '../img/Motif1.png';
+import img_hero_button from '../img/scroll_down.png';
 import img_formation from '../img/formation.jpg';
 import logo_Canon from '../img/logo_canon.png';
 import logo_Hp from '../img/logo_hp.png';
@@ -51,7 +52,7 @@ function Home() {
     }
 
     useEffect(() => {
-        document.title = 'Euro Maintenance - Accueil'; // Change le nom d'onglet de la page
+        document.title = '4AS Bureautique - Accueil'; // Change le nom d'onglet de la page
     }, []);
 
     return (
@@ -61,81 +62,16 @@ function Home() {
 
             <div className="Home_hero_banner"> {/*BANNER HERO */}
 
-                <p className="Home_hero_bigTitle">EURO MAINTENANCE</p>
+                <p className="Home_hero_bigTitle">4<span className="Home_hero_span">A</span>S BUREAUTIQUE</p>
                 <p className="Home_hero_text">Une structure de proximité qui permet à chaque <br />
                     collaborateur de s’épanouir en développant son esprit d’initiative  </p>
 
                 <a href="#hero_bubles1" ><p className="Home_hero_bubles1" onClick={choice1}>Maintenance</p></a>
                 <a href="#hero_bubles2" ><p className="Home_hero_bubles2" onClick={choice2}>Conseils</p></a>
                 <a href="#hero_bubles3" ><p className="Home_hero_bubles3" onClick={choice3}>Formations</p></a>
-                <a href="#Home_presentation_part1" ><p className="Home_hero_button">En savoir plus</p></a>
+                <a href="#Home_presentation_part1" ><img className="Home_hero_button" src={img_hero_button} alt="img_hero_button" /></a>
 
-                <svg className="Home_hereo_Test" viewBox="0 0 1920 975"> {/*Traits dans le fond très chian à faire */}
-                    <g clipPath="url(#clip0_4_3)" filter="url(#filter0_f_4_3)">
-                        <g filter="url(#filter1_i_4_3)">
-                            <path d="M-113.97 474.227C-81.2387 472.217 20.9383 479.957 82.4167 462.169C143.895 444.381 193.422 385.288 254.901 367.5C316.379 349.712 389.809 373.23 451.287 355.442C512.765 337.655 562.293 278.561 623.771 260.773C685.25 242.985 758.679 266.503 820.158 248.716C881.636 230.928 931.163 171.834 992.642 154.046C1054.12 136.259 1127.55 159.777 1189.03 141.989C1250.51 124.201 1300.03 65.1074 1361.51 47.3196C1422.99 29.5318 1496.42 53.0498 1557.9 35.262C1619.38 17.4743 1668.9 -41.6193 1730.38 -59.4071C1791.86 -77.1949 1865.29 -53.6769 1926.77 -71.4647C1988.25 -89.2525 2070.51 -150.356 2099.25 -166.134" stroke="#84429A" strokeOpacity="0.1" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
-                        </g>
-                        <g filter="url(#filter2_i_4_3)">
-                            <path d="M-250.066 575C-220.253 588.659 -133.793 643.657 -71.19 656.954C-8.58672 670.252 62.9509 641.488 125.554 654.785C188.158 668.083 241.827 723.442 304.43 736.74C367.033 750.037 438.571 721.273 501.174 734.571C563.777 747.868 617.446 803.227 680.05 816.525C742.653 829.822 814.191 801.058 876.794 814.356C939.397 827.653 993.066 883.013 1055.67 896.31C1118.27 909.608 1189.81 880.844 1252.41 894.141C1315.02 907.439 1368.69 962.798 1431.29 976.095C1493.89 989.393 1565.43 960.629 1628.03 973.926C1690.64 987.224 1744.31 1042.58 1806.91 1055.88C1869.51 1069.18 1970.86 1054.07 2003.65 1053.71" stroke="#84429A" strokeOpacity="0.1" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
-                        </g>
-                        <g filter="url(#filter3_i_4_3)">
-                            <path d="M-167.859 606.603C-131.097 609.851 -19.3533 633.601 52.7117 626.095C124.777 618.589 192.466 569.072 264.531 561.566C336.596 554.06 413.037 588.564 485.102 581.058C557.167 573.552 624.857 524.035 696.922 516.529C768.987 509.023 845.428 543.528 917.493 536.021C989.558 528.515 1057.25 478.998 1129.31 471.492C1201.38 463.986 1277.82 498.491 1349.88 490.985C1421.95 483.478 1489.64 433.962 1561.7 426.455C1633.77 418.949 1710.21 453.454 1782.27 445.948C1854.34 438.442 1922.03 388.925 1994.09 381.419C2066.16 373.912 2142.6 408.417 2214.66 400.911C2286.73 393.405 2391.18 347.137 2426.48 336.382" stroke="#84429A" strokeOpacity="0.1" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
-                        </g>
-                        <g filter="url(#filter4_i_4_3)">
-                            <path d="M221.772 10C249.153 28.57 326.041 99.0724 386.062 121.42C446.083 143.767 521.875 121.737 581.896 144.085C641.916 166.432 686.165 233.157 746.186 255.505C806.207 277.852 881.999 255.822 942.019 278.17C1002.04 300.517 1046.29 367.242 1106.31 389.589C1166.33 411.937 1242.12 389.907 1302.14 412.254C1362.16 434.602 1406.41 501.327 1466.43 523.674C1526.45 546.022 1602.25 523.992 1662.27 546.339C1722.29 568.687 1766.54 635.412 1826.56 657.759C1886.58 680.106 1962.37 658.076 2022.39 680.424C2082.41 702.771 2126.66 769.496 2186.68 791.844C2246.7 814.191 2349.88 810.731 2382.52 814.509" stroke="#84429A" strokeOpacity="0.1" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
-                        </g>
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_4_3" x="-10" y="0" width="1940" height="975" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_4_3" />
-                        </filter>
-                        <filter id="filter1_i_4_3" x="-118.97" y="-171.135" width="2223.22" height="650.375" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="5" />
-                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.568627 0 0 0 0 0.0823529 0 0 0 0 0.662745 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_3" />
-                        </filter>
-                        <filter id="filter2_i_4_3" x="-255.067" y="569.999" width="2263.72" height="496.347" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="5" />
-                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.568627 0 0 0 0 0.0823529 0 0 0 0 0.662745 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_3" />
-                        </filter>
-                        <filter id="filter3_i_4_3" x="-172.86" y="331.38" width="2604.34" height="301.172" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="5" />
-                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.568627 0 0 0 0 0.0823529 0 0 0 0 0.662745 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_3" />
-                        </filter>
-                        <filter id="filter4_i_4_3" x="216.795" y="4.97552" width="2170.7" height="814.557" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                            <feOffset />
-                            <feGaussianBlur stdDeviation="5" />
-                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                            <feColorMatrix type="matrix" values="0 0 0 0 0.568627 0 0 0 0 0.0823529 0 0 0 0 0.662745 0 0 0 0.25 0" />
-                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_3" />
-                        </filter>
-                        <clipPath id="clip0_4_3">
-                            <rect width="1920" height="955" fill="white" transform="translate(0 10)" />
-                        </clipPath>
-                    </defs>
-                </svg>
+                <svg className="Home_hereo_Test" id="visual" viewBox="0 0 1920 1080" width="1920" height="1080" version="1.1"><path d="M0 596L384 501L768 565L1152 619L1536 519L1920 484" fill="none" stroke-linecap="square" stroke-linejoin="bevel" stroke="#c3c3c3" stroke-width="700"></path></svg>
 
                 <img className="Home_img_printer" src={img_printer} alt="Printer" />
 
@@ -179,9 +115,9 @@ function Home() {
 
             </div>
             <div className="Home_container_for_presentation">
-                <div className="Home_container_presentation_part1"> {/*Présentation partie 1 / PHOTO - TEXTE*/}
+                <div className="Home_container_presentation_part1" id="Home_presentation_part1"> {/*Présentation partie 1 / PHOTO - TEXTE*/}
 
-                    <div className="Home_presentation_part1" id="Home_presentation_part1">
+                    <div className="Home_presentation_part1" >
                         <img className="Home_img_presentation" src={img_presentation} alt="Présentation" />
                     </div>
                     <div className="Home_presentation_part2">
@@ -208,19 +144,19 @@ function Home() {
 
                     <div className="Home_container_title_board">
                         <p className="Home_choice_board_title" id="hero_bubles1" style={{
-                            backgroundColor: isChoice1 ? "#84429A" : "",
+                            backgroundColor: isChoice1 ? "#c22a1f" : "",
                             color: isChoice1 ? "white" : "",
                             borderRadius: isChoice1 ? "30px" : ""
                         }} onClick={choice1}>Maintenance</p>
 
                         <p className="Home_choice_board_title" id="hero_bubles2" style={{
-                            backgroundColor: isChoice2 ? "#84429A" : "",
+                            backgroundColor: isChoice2 ? "#c22a1f" : "",
                             color: isChoice2 ? "white" : "",
                             borderRadius: isChoice2 ? "30px" : ""
                         }} onClick={choice2}>Conseil</p>
 
                         <p className="Home_choice_board_title" id="hero_bubles3" style={{
-                            backgroundColor: isChoice3 ? "#84429A" : "",
+                            backgroundColor: isChoice3 ? "#c22a1f" : "",
                             color: isChoice3 ? "white" : "",
                             borderRadius: isChoice3 ? "30px" : ""
                         }} onClick={choice3}>Formation</p>

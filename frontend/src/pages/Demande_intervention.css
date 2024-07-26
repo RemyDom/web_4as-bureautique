@@ -30,7 +30,7 @@
 }
 
 .DemandeIntervention_p {
-    color: #84429A;
+    color: #c22a1f;
     font-weight: bold;
     font-size: 20px;
 }
@@ -55,7 +55,7 @@
 .DemandeIntervention_form {
     width: 45vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #84429A;
+    border: 1px solid #c22a1f;
     border-top-left-radius: 5px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -110,16 +110,16 @@
     right: 10%;
 }
     /* |==== { Style des inputs } ====| */
-    .DemandeIntervention_input,
-    .DemandeIntervention_textarea {
-        background: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.1rem;
-        color: #84429A;
-        border: none;
-        border-bottom: solid 1px #84429A;
-        outline: none;
-    }
+.DemandeIntervention_input,
+.DemandeIntervention_textarea {
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #c22a1f;
+    border: none;
+    border-bottom: solid 1px #c22a1f;
+    outline: none;
+}
 
     .DemandeIntervention_input::placeholder,
     .DemandeIntervention_textarea::placeholder {

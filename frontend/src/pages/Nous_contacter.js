@@ -27,6 +27,7 @@ function Contact() {
                     </div>
 
                     <div className="contact_container_text">
+
                         <div className="contact_part1_text">
                             <table>
                                 <thead>
@@ -47,6 +48,7 @@ function Contact() {
                         </div>
 
                         <div className="contact_part2_text">
+
                             <table>
                                 <thead>
                                     <tr>
