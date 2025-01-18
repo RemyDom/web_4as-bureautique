@@ -9,7 +9,7 @@ import './Home.css';
 function MentionLegales() {
 
     useEffect(() => {
-        document.title = 'Euro Maintenance - Mentions Légales'; // Change le nom d'onglet de la page
+        document.title = '4AS - Mentions Légales'; // Change le nom d'onglet de la page
     }, []);
 
     return (
@@ -18,9 +18,9 @@ function MentionLegales() {
 
             <div className="MentionLegales_text">
                 <h2 className="MentionLegales_h2">Publication</h2>
-                <p>Le site www.euromaintenance.fr, représente la société Euro Maintenance, vente et maintenance de matériels bureautiques pour le compte de partenaires revendeurs.
-                    www.euromaintenance.fr est édité par euromaintenance et hébergé chez 1&1.</p>
-                <p>Euro Maintenance <br />
+                <p>Le site www.4as-bureautique.fr, représente la société 4AS Bureautique, vente et maintenance de matériels bureautiques pour le compte de partenaires revendeurs.
+                    www.4as-bureautique.fr est édité par 4AS Bureautique et hébergé chez 1&1.</p>
+                <p>4AS Bureautique <br />
                     SAS au capital de 45000€ <br />
                     Siège social : 1 rue Terre Neuve Bât. F, Mini parc du Verger - 91940 Les Ulis <br />
                     RCS Evry 2001 B 01443 <br />
@@ -35,11 +35,11 @@ function MentionLegales() {
                     7 Place de la Gare, 57200 Sarreguemines</p>
 
                 <h2 className="MentionLegales_h2">Propriété intellectuelle</h2>
-                <p>L'intégralité du site est la propriété exclusive de Euro Maintenance. Aucune reproduction ou représentation ne peut avoir lieu sans le consentement écrit et préalable de Euro Maintenance. Malgré tous les soins d'usage apportés à la réalisation de ce site et à son actualisation régulière, des erreurs peuvent s'être glissées dans les informations et/ou documents présentés. Si vous en constatez, merci de nous les signaler afin que nous procédions aux rectifications correspondantes. Euro Maintenance se réserve le droit de corriger, à tout moment et sans préavis, le contenu.</p>
+                <p>L'intégralité du site est la propriété exclusive de 4AS Bureautique. Aucune reproduction ou représentation ne peut avoir lieu sans le consentement écrit et préalable de 4AS Bureautique. Malgré tous les soins d'usage apportés à la réalisation de ce site et à son actualisation régulière, des erreurs peuvent s'être glissées dans les informations et/ou documents présentés. Si vous en constatez, merci de nous les signaler afin que nous procédions aux rectifications correspondantes. 4AS Bureautique se réserve le droit de corriger, à tout moment et sans préavis, le contenu.</p>
 
                 <h2 className="MentionLegales_h2">Données nominatives</h2>
-                <p>Les données nominatives enregistrées sur ce site seront stockées et utilisées conformément à la loi du 6 janvier 1978 relative à l'informatique et aux libertés. Les utilisateurs de ce site disposent d'un droit d'accès, de rectification et de suppression des données les concernant, qu'ils peuvent exercer auprès de : Euro Maintenance, 1 rue Terre Neuve, 91940 Les Ulis.</p>
-                <p>Les liens hypertexte présents sur ce site et aiguillant les utilisateurs vers d'autres sites Internet n'engagent pas la responsabilité de Euro Maintenance ni de son directeur de publication, quant au contenu de ces sites.</p>
+                <p>Les données nominatives enregistrées sur ce site seront stockées et utilisées conformément à la loi du 6 janvier 1978 relative à l'informatique et aux libertés. Les utilisateurs de ce site disposent d'un droit d'accès, de rectification et de suppression des données les concernant, qu'ils peuvent exercer auprès de : 4AS Bureautique, 1 rue Terre Neuve, 91940 Les Ulis.</p>
+                <p>Les liens hypertexte présents sur ce site et aiguillant les utilisateurs vers d'autres sites Internet n'engagent pas la responsabilité de 4AS Bureautique ni de son directeur de publication, quant au contenu de ces sites.</p>
 
             </div>
             

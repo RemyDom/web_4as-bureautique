@@ -7,7 +7,11 @@ function Maintenance_Sticker(props) {
             <div className="Home_container_Maintenance_Stickers">
 
                 <div className="Home_Maintenance_Stickers_text">
-                    <p style={{ fontSize: "20px", textAlign: "center", fontWeight: "bold", marginBottom: "5%" }}>{props.title}</p>
+                    <div className="Home_Maintenance_Stickers_text_container">
+                        <img style={{ width: "45px", marginRight: "2%" }} src={(props.icons)} alt='Logo_Copies' />
+                        <p style={{ fontSize: "22px", textAlign: "center", fontWeight: "bold", marginBottom: "5%" }}>{props.title}</p>
+                    </div>
+                    
 
                     <div className="Home_container_maintenance_price" >
                         <div className="Home_Maintenance_Price_Background">

@@ -42,17 +42,3 @@
     margin-top: 3%;
     color: #c22a1f;
 }
-
-/* |========================================{ Version 2560px }========================================| */
-
-@media all and (min-width: 1920px) and (max-width: 2560px) {
-    .Services_container {
-        font-size: 19px;
-        margin-bottom: 1%;
-    }
-
-    .Services_img1, .Services_img2 {
-        width: 35%;
-        height: 30vh;
-    }
-}

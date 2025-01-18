@@ -13,7 +13,7 @@ import imgTechologie from '../img/technologie.jpg';
 function NosServices() {
 
     useEffect(() => {
-        document.title = 'Euro Maintenance - Nos Services'; // Change le nom d'onglet de la page
+        document.title = '4AS Bureautique - Nos Services'; // Change le nom d'onglet de la page
     }, []);
 
     return (
@@ -27,14 +27,14 @@ function NosServices() {
 
                     <div className="Services_container_block1">
                         <div className="Services_container_text1">
-                            <p>En souscrivant aux services Euro maintenance lors de l’achat d’un nouveau produit, nos techniciens spécialistes sont là pour vous apporter toutes leurs connaissances et leur savoir-faire. Nos services planifieront avec vous un calendrier d’installation et valideront avec vous toutes les spécificités liées à la livraison.</p>
+                            <p>En souscrivant aux services 4AS Bureautique lors de l’achat d’un nouveau produit, nos techniciens spécialistes sont là pour vous apporter toutes leurs connaissances et leur savoir-faire. Nos services planifieront avec vous un calendrier d’installation et valideront avec vous toutes les spécificités liées à la livraison.</p>
 
-                            <p>Votre technicien Euro Maintenance se chargera des tests de bon fonctionnement de la configuration et réalisera tous les réglages nécessaires pour une utilisation optimale du périphérique d’impression.</p>
+                            <p>Votre technicien 4AS Bureautique se chargera des tests de bon fonctionnement de la configuration et réalisera tous les réglages nécessaires pour une utilisation optimale du périphérique d’impression.</p>
 
                             <p>Celui-ci vous délivrera une formation opérateur sur les fonctions les plus courantes de votre système d’impression.</p>
 
                             <p>Pour une utilisation approfondie de vos solutions d’impressions, des prestations de formations avancées sont disponibles auprès de votre interlocuteur commercial Canon habituel.
-                                Afin de garantir la fiabilité et le bon fonctionnement de vos solutions d’impressions Euro Maintenance, notre service après-vente réalisera l’entretien et la maintenance de vos solutions multifonctions, fax et connexions.</p>
+                                Afin de garantir la fiabilité et le bon fonctionnement de vos solutions d’impressions 4AS Bureautique, notre service après-vente réalisera l’entretien et la maintenance de vos solutions multifonctions, fax et connexions.</p>
 
                         </div>
 
@@ -66,7 +66,7 @@ function NosServices() {
                         <div className="Services_container_text2">
                             <p>Un système d'impression de haute qualité requiert un service et une assistance de pointe afin de garantir une durée de disponibilité maximale ou, en cas de panne, une interruption minimale de vos activités. Nos techniciens de services, parfaitement formés et équipés, couvrent toute la France.</p>
 
-                            <p>Dans un environnement professionnel actuel, toutes les activités sont interrompues lorsque le système tombe en panne ou si un important composant ne fonctionne pas correctement. Le service et l'assistance EURO MAINTENANCE vous garantissent une utilisation optimale de vos solutions professionnelles et, par conséquent, une rentabilité maximale de votre investissement.</p>
+                            <p>Dans un environnement professionnel actuel, toutes les activités sont interrompues lorsque le système tombe en panne ou si un important composant ne fonctionne pas correctement. Le service et l'assistance 4AS Bureautique vous garantissent une utilisation optimale de vos solutions professionnelles et, par conséquent, une rentabilité maximale de votre investissement.</p>
 
                             <p>Experts en maintenance et en service sur nos produits, nous sommes également certifiés dans de nombreuses autres marques, si nécessaire.</p>
 

@@ -23,7 +23,7 @@ function Conseil_Sticker(props) {
                 <img className="Home_logo_stikers" src={props.icons} alt="Logo Stikers info" />
 
                 <div className="Home_Conseil_Stickers_text">
-                    <p style={{fontWeight: "bold", fontSize:"18px"} }>{props.title}</p>
+                    <p style={{fontWeight: "bold"} }>{props.title}</p>
                     <p>{props.summary}</p>
                 </div>
 

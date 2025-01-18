@@ -11,20 +11,23 @@ import './Home.css';
 import "../index.css";
 
 // |==== { Imports des images } ====|
-import img_equipe_technique from '../img/equipe_technique.png';
-import img_presentation from '../img/presentation.jpg';
+//import img_equipement_technique1 from '../img/presentation_technique.jpg';
+import img_equipement_technique2 from '../img/presentation_technique2.jpg';
+import img_presentation from '../img/presentation2.jpg';
 import img_printer from '../img/Motif1.png';
 import img_hero_button from '../img/scroll_down.png';
 import img_formation from '../img/formation.jpg';
 import logo_Canon from '../img/logo_canon.png';
 import logo_Hp from '../img/logo_hp.png';
 import logo_Kyocera from '../img/logo_kyocera_blanc.png';
+import logo_4AS from '../img/logo4asPied.png';
+import logo_niveau from '../img/niveau-superieur.png';
 
 function Home() {
 
     // |==== { Menu qui affiche "Maintenance" OU "Conseil" OU "Formation" } ====|
-    const [isChoice1, setChoice1] = useState(true); /* Par défaut affiche le choix 1 */
-    const [isChoice2, setChoice2] = useState(false);
+    const [isChoice1, setChoice1] = useState(false); 
+    const [isChoice2, setChoice2] = useState(true);/* Par défaut affiche le choix 1 */
     const [isChoice3, setChoice3] = useState(false);
 
     function choice1() {
@@ -63,8 +66,13 @@ function Home() {
             <div className="Home_hero_banner"> {/*BANNER HERO */}
 
                 <p className="Home_hero_bigTitle">4<span className="Home_hero_span">A</span>S BUREAUTIQUE</p>
-                <p className="Home_hero_text">Une structure de proximité qui permet à chaque <br />
-                    collaborateur de s’épanouir en développant son esprit d’initiative  </p>
+
+                <div className="Home_hero_sub_container">
+                    <p className="Home_hero_text">Les cartes sont entre vos mains. <br />
+                        Jouez la partie et gagnez.  </p>
+                    <img className="Home_hero_logo_4as" src={logo_4AS} alt="Logo4AS_Hero" />
+                </div>
+
 
                 <a href="#hero_bubles1" ><p className="Home_hero_bubles1" onClick={choice1}>Maintenance</p></a>
                 <a href="#hero_bubles2" ><p className="Home_hero_bubles2" onClick={choice2}>Conseils</p></a>
@@ -122,7 +130,7 @@ function Home() {
                     </div>
                     <div className="Home_presentation_part2">
                         <div className="Home_container_part2">
-                            <p><span className="text_important">EURO MAINTENANCE</span>, créée en 1990, assure depuis cette date la vente et la maintenance de matériels bureautiques pour le compte de nos partenaires revendeurs qui équipent les PME, PMI, ASSOCIATIONS, NOTAIRES, AVOCATS, MAIRIES, GRANDS COMPTES, etc.</p>
+                            <p><span className="text_important">4AS BUREAUTIQUE</span> créée en 2023, assure depuis cette date la vente et la maintenance de matériels bureautiques pour le compte de nos partenaires revendeurs qui équipent les PME, PMI, ASSOCIATIONS, NOTAIRES, AVOCATS, MAIRIES, GRANDS COMPTES, etc.</p>
 
                             <div className="Home_container_distributor">
                                 <p><span className="text_important">Nos distributeurs agréés : Canon - HP - KYOCERA </span></p>
@@ -191,6 +199,7 @@ function Home() {
                                             <div className="Home_stikers_part1">
 
                                                 <div className="Home_stickers_title">
+                                                    <img className="Home_formation_icons" src={logo_niveau } alt="Icons niveau" />
                                                     <p>Maintient à niveau</p>
                                                 </div>
 
@@ -232,8 +241,9 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="Home_technical_team_part2">
-                        <img className="Home_img_technical_team" src={img_equipe_technique} alt="Equipe technique" />
+                    <div className="Home_technical_equipement_part2">
+                        {/*<img className="Home_img_technical_equipement" src={img_equipement_technique1} alt="Equipement technique" />*/}
+                        <img className="Home_img_technical_equipement" src={img_equipement_technique2} alt="Equipement technique2" />
                     </div>
                 </div>
             </div>

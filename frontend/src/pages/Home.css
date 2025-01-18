@@ -1,4 +1,4 @@
-/* |========================================{ Version Original }========================================| */
+/* |========================================{ Version Original 2k }========================================| */
 
 /*/====={ GLOBAL }=====/*/
 body {
@@ -7,6 +7,7 @@ body {
     border: 0;
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 html {
@@ -38,7 +39,6 @@ html {
 .Home_hereo_Test {
     width: 100%;
     height: 98%;
-    /*fill: none;*/
     position: absolute;
 }
 
@@ -47,6 +47,7 @@ html {
     width: 8%;
     border-radius: 30px;
     font-weight: bold;
+    font-size: 20px;
     border: solid 1px black;
     text-align: center;
     padding: 5px;
@@ -63,19 +64,19 @@ html {
 
 .Home_hero_bubles1 {
     top: 22%;
-    left: 71%;
+    left: 70%;
     transform: rotate(35deg)
 }
 
 .Home_hero_bubles2 {
     top: 29%;
-    left: 79%;
+    left: 78%;
     transform: rotate(0deg)
 }
 
 .Home_hero_bubles3 {
-    top: 19%;
-    left: 78%;
+    top: 20%;
+    left: 77%;
     transform: rotate(-45deg)
 }
 
@@ -86,7 +87,7 @@ html {
 .Home_hero_bigTitle {
     top: 16%;
     position: absolute;
-    font-size: 100px;
+    font-size: 150px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -101,8 +102,8 @@ html {
 }
 
 .Home_hero_text {
-    width: 40%;
-    font-size: 18px;
+    margin-right: 1%;
+    font-size: 28px;
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -129,7 +130,7 @@ html {
         position: absolute;
         bottom: 5%;
         right: 10%;
-        width: 300px;
+        width: 400px;
     }
 
 .Home_container_support{
@@ -171,7 +172,7 @@ html {
 .Home_container_presentation_part1, .Home_container_presentation_part2 {
     width: 95%;
     border-radius: 10px;
-    height: 50vh;
+    height: 40vh;
     color: black;
     display: flex;
     justify-content: space-evenly;
@@ -184,9 +185,20 @@ html {
     width: 40%;
 }
 
+.Home_hero_sub_container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Home_hero_logo_4as{
+    transform: rotate(35deg);
+}
+
 .Home_img_presentation {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -203,7 +215,6 @@ html {
 
 .Home_container_part2 {
     width: 90%;
-    /*font-family: "Philosopher";*/
 }
 
 .Home_container_distributor {
@@ -217,19 +228,18 @@ html {
 }
 
 .Home_distributor_logo {
-    width: 90px;
+    width: 150px;
     height: 100%;
     object-fit: fill;
 }
 
 .Home_distributor_logo_HP {
-    width: 50px;
+    width: 90px;
     height: 100%;
     object-fit: fill;
 }
 
 /*/====={ Partie Équipe technique }=====/*/
-
 
 .Home_context_part1 {
     width: 50%;
@@ -239,7 +249,7 @@ html {
     text-align: center;
 }
 
-.Home_technical_team_part2 {
+.Home_technical_equipement_part2 {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -247,9 +257,9 @@ html {
     text-align: center;
 }
 
-.Home_img_technical_team {
-    width: 80%;
-    height: 100%;
+.Home_img_technical_equipement {
+    width: 50%;
+    height: 80%;
     object-fit: fill;
     border-top-left-radius: 5px;
     border-top-right-radius: 30px;
@@ -258,8 +268,7 @@ html {
 }
 
 .Home_technique_part1_text {
-    width: 80%;
-    font-size: 18px;
+    width: 90%;
 }
 
 /*/====={ Partie Informations supplémentaires}=====/*/
@@ -291,7 +300,7 @@ html {
     margin-right: 2%;
     cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     transition: all 0.3s;
     color: black;
     padding: 10px 10px;
@@ -328,6 +337,7 @@ html {
 }
 
 .Home_container_Maintenance_Stickers_background1 {
+    height: 35vh;
     background: rgba(214, 214, 214, 0.9);
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
@@ -336,13 +346,18 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh;
     position: relative;
 }
 
 .Home_container_Maintenance_Stickers {
     width: 90%;
     height: 90%;
+}
+
+.Home_Maintenance_Stickers_text_container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .Home_container_all_Maintenance_Stickers_choice1 {
@@ -362,7 +377,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 4%;
+    margin-top: 3%;
 }
 
 .Home_Maintenance_Price_Background {
@@ -464,12 +480,11 @@ html {
 }
 
     .Home_container_all_Conseil_Stickers_choice2 > .Home_container_Conseil_Stickers_background2 {
-        width: calc(50% - 5%); /* Ajustez la largeur en fonction de vos besoins */
+        width: calc(45% - 5%); /* Ajustez la largeur en fonction de vos besoins */
         margin-bottom: 3%; /* Espace entre les lignes */
     }
 
 .Home_container_Conseil_Stickers_background2 {
-    width: 40%;
     background: rgba(214, 214, 214, 0.9);
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
@@ -525,7 +540,6 @@ html {
     }
 
 .Home_choice2_text {
-    font-size: 18px;
     text-align:center;
 }
 /*/====={ Partie 3 - FORMATION}=====/*/
@@ -538,14 +552,9 @@ html {
 }
 
     .Home_container_all_stickers_choice3 > .Home_container_stickers_background3 {
-        width: 70%; /* Ajustez la largeur en fonction de vos besoins */
+        width: 60%; /* Ajustez la largeur en fonction de vos besoins */
         margin-bottom: 3%;
     }
-
-.Home_table_contrats {
-    width: 400px;
-    text-align: center;
-}
 
 .Home_container_stickers_background3 {
     margin-top: 2%;
@@ -564,6 +573,7 @@ html {
 
 .Home_container_stickers {
     width: 100%;
+    height: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -573,14 +583,21 @@ html {
     text-align: center;
     margin-bottom: 10%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Home_formation_icons {
+    width: 50px;
+    margin-right: 3%;
 }
 
 .Home_stikers_part1 {
-    width: 50%;
-    height: 50vh;
+    width: 35%;
+    height: 45vh;
     position: relative;
-    font-size: 17px;
 }
 
 .Home_stikers_part2 {
@@ -599,6 +616,7 @@ html {
     transition: all 0.3s;
     background-color: #c22a1f;
     color: white;
+    font-size: 22px;
 }
 
     .Home_stikers_button:hover {
@@ -608,12 +626,11 @@ html {
 
 .Home_img_formation {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     border-radius: 10px;
     object-fit: cover;
 }
 .Home_choice3_text{
-    font-size: 18px;
     text-align:center;
 }
 /*/====={ CUSTOM SCROLL BAR }=====/*/
@@ -642,7 +659,6 @@ html {
 
 .CGU_ol {
     font-weight: bold;
-    font-size: 20px;
     font-family: "Philosopher";
     color: #84429A;
 }
@@ -657,14 +673,14 @@ html {
 }
 
 .MentionLegales_text {
+    height: 83vh;
     width: 95%;
 }
 
 .MentionLegales_h2 {
     font-weight: bold;
-    font-size: 25px;
     font-family: "Philosopher";
-    color: #84429A;
+    color: #c22a1f;
 }
 
 /*/====={ ERREUR LIEN }=====/*/
@@ -751,21 +767,6 @@ html {
     text-decoration: none;
     color: white;
 }
-/*@media (prefers-reduced-motion: no-preference) {
-    .ErreurLien_img_printer {
-        animation: ErreurLien_img_printer infinite 10s linear;
-    }
-}
-
-@keyframes ErreurLien_img_printer {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}*/
 
 .ErreurLien_svg_principal {
     position: relative;
@@ -780,156 +781,4 @@ html {
     position: absolute;
     right: 30%;
     top: 15%;
-}
-/* |========================================{ Version 2560px }========================================| */
-@media all and (min-width: 1920px) and (max-width: 2560px) {
-
-    /*/====={ Partie - HERO }=====/*/
-    .Home_hero_bigTitle {
-        font-size: 150px;
-    }
-
-    .Home_hero_bubles1, .Home_hero_bubles2, .Home_hero_bubles3 {
-        font-size: 20px;
-    }
-
-    .Home_hero_text {
-        font-size: 24px;
-    }
-
-    .Home_img_printer {
-        width: 400px;
-    }
-
-    .Home_hereo_Test {
-        /*width: 2560px;
-        height: 1335px;*/
-    }
-
-    .Home_hero_bubles1 {
-        top: 22%;
-        left: 68%;
-        transform: rotate(35deg)
-    }
-
-    .Home_hero_bubles2 {
-        top: 29%;
-        left: 76%;
-        transform: rotate(0deg)
-    }
-
-    .Home_hero_bubles3 {
-        top: 20%;
-        left: 75%;
-        transform: rotate(-45deg)
-    }
-
-    .Home_presentation_part2 {
-        font-size: 20px;
-    }
-
-    .Home_distributor_logo {
-        width: 150px;
-        height: 100%;
-    }
-
-    .Home_distributor_logo_HP {
-        width: 100px;
-        height: 100%;
-    }
-
-    /*/====={ Partie 1 - Maintenance }=====/*/
-
-    .Home_container_Maintenance_Stickers_background1 {
-        height: 30vh;
-    }
-
-    .Maintenance_InfoStickers_container {
-        font-size: 18px;
-    }
-
-    /*/====={ Partie 2 - CONSEIL }=====/*/
-
-    .Home_container_all_Conseil_Stickers_choice2 > .Home_container_Conseil_Stickers_background2 {
-        width: calc(35% - 5%); /* Ajustez la largeur en fonction de vos besoins */
-        margin-bottom: 3%; /* Espace entre les lignes */
-    }
-
-    .Home_Conseil_Stickers_text {
-        width: 70%;
-    }
-
-    .Home_choice2_text{
-        font-size: 20px;
-    }
-
-    /*/====={ Partie 3 - FORMATION }=====/*/
-
-    .Home_choice3_text {
-        font-size: 20px;
-    }
-    .Home_stickers_title{
-        font-size: 25px;
-    }
-    .Home_stikers_part1 {
-        font-size: 19px;
-    }
-    .Home_container_stickers, .Home_stikers_part1, .Home_stikers_part2, .Home_img_formation {
-        height: 40vh;
-    }
-
-    /*/====={ Partie Équipe technique }=====/*/
-
-    .Home_technique_part1_text{
-        font-size: 20px;
-    }
-
-    .Home_container_presentation_part2{
-        height: 35vh;
-    }
-
-    .Home_img_technical_team{
-        height: 30vh;
-    }
-
-    /*/====={ Partie Erreur lien }=====/*/
-    .ErreurLien_T1 {
-        font-size: 50px;
-        margin-left: 2%;
-        margin-bottom: -6%;
-    }
-
-    .ErreurLien_T2 {
-        font-size: 70px;
-        margin-bottom: -2%;
-        font-weight: bold;
-    }
-
-    .ErreurLien_T3 {
-        font-size: 24px;
-    }
-    .ErreurLien_Part2 {
-        height: 83.1vh;
-    }
-
-    .ErreurLien_img_printer{
-        width: 15%;
-        right: 20%;
-        top: 30%;
-    }
-
-    .ErreurLien_svg_principal{
-        top:10%;
-        left: 20%;
-    }
-
-    .ErreurLien_svg2 {
-        bottom: 35%;
-        right: 20%;
-    }
-
-    .ErreurLien_svg3{
-        top:20%;
-        right: 25%;
-    }
 }

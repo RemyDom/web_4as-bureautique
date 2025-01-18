@@ -104,20 +104,3 @@
     font-size: 18px;
 }
 /* |==== { Documentation technique } ====| */
-
-
-/* |========================================{ Version 2560px }========================================| */
-@media all and (min-width: 1920px) and (max-width: 2560px) {
-    .TechnicalPaperLogin_h3 {
-        font-size: 22px;
-        margin-bottom: 2%;
-    }
-
-    .TechnicalPaperLogin_box_password, .TechnicalPaperLogin_box_email {
-        height: 6vh;
-    }
-
-    .TechnicalPaperLogin_container{
-        height:83vh;
-    }
-}

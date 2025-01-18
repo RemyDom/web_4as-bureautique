@@ -12,16 +12,12 @@
 }
 
 .Header_part1 {
-    width: 20%;
     height: 9vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left:2%;
 }
 
 .Header_logo_euro {
-    width: 100px;
-    object-fit: fill;
+    width: 240px;
 }
 
 .Header_part2 {
@@ -78,25 +74,34 @@
 }
 
 .Header_navbar_SubChoice {
+    display: flex;
+    justify-content:center;
+    align-items:center;
     margin-top: 4%;
 }
 
 .Header_submenu_navbar_ul {
+    width: 100%;
     position: relative;
     list-style-type: none;
     padding: 0;
     margin: 0;
     background-color: gray;
     padding: 10px 10px;
-    background: rgba(214, 214, 214, 0.90);
+    background: rgba(195, 195, 195, 0.90);
     border-radius: 15px;
+}
+
+.Header_navbar_icons {
+    width: 35px;
+    margin-right: 2%;
 }
 
 .Header_link {
     color: black;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: bold;
     letter-spacing: 0.3px;
     transition: all 0.2s ease-in-out;
@@ -107,7 +112,7 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: bold;
     letter-spacing: 0.3px;
     transition: all 0.2s ease-in-out;
@@ -129,7 +134,7 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.1vw;
+    font-size: 1.0vw;
     font-weight: bold;
     letter-spacing: 0.3px;
     transition: all 0.2s ease-in-out;
@@ -155,27 +160,6 @@
 }
 
 .Headder_navbar_tel_icons {
-    width: 30px;
-    margin-right: 2%;
-}
-
-/* |========================================{ Version 2560px }========================================| */
-@media all and (min-width: 1920px) and (max-width: 2560px) {
-
-    .Header_logo_euro {
-        width: 150px;
-        object-fit: fill;
-    }
-
-    .Header_link {
-        font-size: 22px;
-    }
-
-    .Header_link2 {
-        font-size: 22px;
-    }
-
-    .Header_SubLink {
-        font-size: 20px;
-    }
+    width: 40px;
+    margin-right: 5%;
 }
